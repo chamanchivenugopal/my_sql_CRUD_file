@@ -1,0 +1,21 @@
+#creating new table registration
+
+CREATE TABLE Register ( ID INT PRIMARY KEY AUTO_INCREMENT, Name VARCHAR(255) NOT NULL, Email VARCHAR(255) NOT NULL, DateOfBirth DATE,Address varchar(255));
+
+#insert into registration table
+
+INSERT INTO Register VALUES(01,VENU,chaminchivenugopal@gmail.com,21-01-2003,madanapalle);
+INSERT INTO Register VALUES(02,balaji,rondabalaji@gmail.com,11-03-2002,angallu);
+
+#update the registration 
+
+UPDATE register set name='venu gopal' where id=01;
+
+#delete the data registration
+
+DELETE FROM register where name='balaji';
+
+
+
+
+
